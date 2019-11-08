@@ -1,8 +1,5 @@
 body {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px auto 0px auto;
     width: 100%;
     height: 100%;
     max-width: 1100px;
@@ -12,7 +9,6 @@ body {
 
 header {
     display: flex;
-    width: 100%;
     height: 50px;
     line-height: 50px;
     justify-content: space-between;
@@ -31,11 +27,10 @@ header {
 }
 
 .img_sec {
-    display: flex;
-    width: 100%;
+    display: flex; 
+    justify-content: space-between;
     border: solid grey 1px;
     margin-top: 10px;
-    justify-content: space-between;
     padding: 30px 0 10px 0;
 }
 
@@ -51,32 +46,23 @@ header {
 }
 
 .youtube {
-    background-image: url('./img/youtube.png');
-    background-size: cover;
-    background-position: center; 
+    background: url('./img/youtube.png') center/cover;
 }
 
 .instagram {
-    background-image: url('./img/instagram.jpg');
-    background-size: cover;
-    background-position: center; 
+    background: url('./img/instagram.jpg') center/cover;
 }
 
 .twitch {
-    background-image: url('./img/twitch.png');
-    background-size: cover;
-    background-position: center; 
+    background: url('./img/twitch.png') center/cover;
 }
 
 .facebook {
-    background-image: url('./img/facebook.png');
-    background-size: cover;
-    background-position: center; 
+    background: url('./img/facebook.png') center/cover;
 }
 
 .sec_3 {
     display: flex;
-    width: 100%;
     height: 100px;
     line-height: 100px;
     justify-content: space-between;
@@ -95,7 +81,6 @@ header {
 
 main {
     display: flex;
-    width: 100%;
     justify-content: space-between;
     margin-top: 10px;
 }
@@ -108,7 +93,7 @@ nav {
     width: 29%;
     height: 130px;
     text-align: left;
-    font-size: 0.5em;
+    font-size: .5em;
     border: solid grey 1px;
 }
 
@@ -121,7 +106,6 @@ li {
 }
 
 .orange {
-    width: 100%;
     background: orange;
     height: 200px;
     line-height: 200px;
@@ -129,7 +113,6 @@ li {
 
 .sec_4 {
     display: flex;
-    width: 100%;
     height: 200px;
     justify-content: space-between;
     margin-top: 10px;
@@ -147,7 +130,6 @@ li {
 }
 
 .grey {
-    width: 100%;
     height: 250px;
     line-height: 250px;
     background: grey;
@@ -155,7 +137,6 @@ li {
 }
 
 footer {
-    width: 100%;
     height: 50px;
     line-height: 50px;
     margin-top: 10px;
@@ -186,7 +167,6 @@ footer {
     .sec_4 {
         display: grid;
         grid-template-columns: 100%;
-        width: 100%;
         height: 280px;
         margin-bottom: -10px;
     }
@@ -234,7 +214,6 @@ footer {
 
     main {
         flex-direction: column;
-        width: 100%;
     }
 
     .main_info {
@@ -243,7 +222,6 @@ footer {
 
     .orange, .red, .green {
         height: 50px;
-        width: 100%;
         line-height: 50px;
     }
 
